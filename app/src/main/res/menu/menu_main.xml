@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/mainGroup">
+        <item
+            android:id="@+id/homeActivity"
+            android:icon="@drawable/ic_home"
+            android:title="Asosiy Oyna"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/barchaVazifalar"
+            android:icon="@drawable/ic_assignment"
+            android:title="Barcha Vazifalar"
+            app:showAsAction="withText" />
+
+        <item
+            android:id="@+id/vazifalarTarixi"
+            android:icon="@drawable/ic_history_black"
+            android:title="Vazifalar Tarixi"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/vazifalarSavatchasi"
+            android:icon="@drawable/ic_shopping_basket"
+            android:title="Vazifalar Savatchasi"
+            app:showAsAction="withText" />
+    </group>
+    <group android:id="@+id/group_yoriqnoma">
+        <item
+            android:id="@+id/yoriqnoma"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Foydalanish  Yo'riqnomasi"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/shartlari"
+            android:icon="@drawable/ic_view_column"
+            android:title="Foydalanish  Shartlari"
+            app:showAsAction="withText" />
+    </group>
+    <group android:id="@+id/gruopShare">
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="Ulashish"
+            app:showAsAction="withText" />
+    </group>
+
+
+</menu>

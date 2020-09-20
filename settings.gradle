@@ -1,0 +1,2 @@
+rootProject.name='KursIshi'
+include ':app'

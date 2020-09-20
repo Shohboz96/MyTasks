@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.screens.ShartlariActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/top1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Foydalanish shartlari:"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/darkBlue"
+                android:text="Ilovadan foydalanish davomida siz o'zinigiz bajaridigan vazifalaringizni soddalashtirishingiz mimkin."
+                android:textSize="20dp" />
+
+            <TextView
+                android:textColor="@color/darkBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Siz vazifalaringizni avvaldan kiritib qo'yishingiz kifoya."
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/darkBlue"
+                android:text="Bunda siz dastur to'g'ri ishlashi va turli  xil muammolar bo'lmasligi uchun siz foydalanish yo'riqnomasi bilan tanishib chiqib so'ralgan ma'lumotlarni to'g'ri, tushunarli va aniq holda kiritishingiz va belgilangan tartib qoidalarga to'la amal qilishingiz kerak bo'ladi."
+                android:textSize="20dp" />
+
+            <TextView
+                android:textColor="@color/darkBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Dasturdan muallif ruxsatisiz tijoriy maqsadlarda  foydalanish taqiqlanadi."
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/switchBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/ic_baseline_check_box_outline_blank_24" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="6dp"
+                    android:text="Foydalanish shartlariga roziman"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/buttonShartlariNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bgn_button_next"
+                android:text="Next"
+                android:textSize="16sp"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

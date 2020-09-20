@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Tasks</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intoColor1">#3F51B5</string>
+    <string name="intoColor2">#2196F3</string>
+    <string name="intoColor3">#F67BA5</string>
+    <color name="colo1">#3F51B5</color>
+    <color name="color2">#0C1650</color>
+</resources>

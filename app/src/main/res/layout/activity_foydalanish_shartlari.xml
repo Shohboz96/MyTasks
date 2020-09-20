@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.screens.FoydalanishShartlariActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_baryo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarsha"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/darkBlue"
+                android:text="Ilovadan foydalanish davomida siz o'zinigiz bajaradigan vazifalaringizni soddalashtirishingiz mimkin."
+                android:textSize="20dp" />
+
+            <TextView
+                android:textColor="@color/darkBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Siz vazifalaringizni avvaldan kiritib qo'yishingiz kifoya."
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/darkBlue"
+                android:text="Bunda siz dastur to'g'ri ishlashi va turli  xil muammolar bo'lmasligi uchun siz foydalanish yo'riqnomasi bilan tanishib chiqib so'ralgan ma'lumotlarni to'g'ri, tushunarli va aniq holda kiritishingiz va belgilangan tartib qoidalarga to'la amal qilishingiz kerak bo'ladi."
+                android:textSize="20dp" />
+            <TextView
+                android:textColor="@color/darkBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Dasturdan muallif ruxsatisiz tijoriy maqsadlarda  foydalanish taqiqlanadi."
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
